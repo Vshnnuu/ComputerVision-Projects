@@ -25,10 +25,7 @@ This project detects simple facial behavior events from video using OpenCV and M
 ## Outputs
 
 ### Annotated Preview Video
-[View Video](outputs/annotated_preview_with_measurements.mp4)
-
-### Annotated Frame Example
-![Annotated Frame](outputs/annotated_frame_example.png)
+[View Video](outputs/annotated_preview_with_measurements.mov)
 
 ### Signal Plots
 ![Smile Plot](plots/smile_plot.png)  
@@ -37,10 +34,11 @@ This project detects simple facial behavior events from video using OpenCV and M
 
 ### Extracted signals in CSV format
 
-## Project Structure
-- `facial_behavior_event_detector.ipynb` — main notebook
+## Project contents
+- `facial_behavior_detector.ipynb` — main notebook
+- `facial_behavior_detector.py` — alternate python file
 - `signals.csv` — extracted facial behavior signals
-- `outputs/` — annotated video and screenshot
+- `outputs/` — annotated video 
 - `plots/` — signal visualizations
 
 ## Why
