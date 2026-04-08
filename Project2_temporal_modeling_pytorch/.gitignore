@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+.venv_mp/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Jupyter / notebook leftovers
+.ipynb_checkpoints/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# input video
+input_video.mov
